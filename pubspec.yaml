@@ -37,6 +37,13 @@ dependencies:
   cupertino_icons: ^1.0.2
   sliding_sheet: ^0.5.2
   font_awesome_flutter: ^10.4.0
+  flutter_launcher_icons: ^0.13.0
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/appIcon/portfolioIcon1.jpg"
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +71,7 @@ flutter:
   assets:
    - assets/img1.png
    - assets/img2.png
+   - assets/appIcon/portfolioIcon1.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
